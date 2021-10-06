@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#004aad"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="344dp"
+        android:layout_height="331dp"
+        android:baselineAligned="false"
+        android:padding="20dp"
+        app:srcCompat="@drawable/bank1" />
+
+
+    <TextView
+        android:layout_width="187dp"
+        android:layout_height="98dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="BANKR"
+        android:textColor="#bcfcff"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:backgroundTint="#03898E"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="CONTINUE >>"
+        android:textAllCaps="true"
+        android:textColor="#5ce1e6"
+        android:textSize="18sp"
+        android:textStyle="bold"></Button>
+
+
+
+</LinearLayout>
